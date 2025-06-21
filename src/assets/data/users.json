@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Joan Petit",
+        "email": "jain@server.cat",
+        "password": "123456"
+    },
+    {
+        "name": "John Smith",
+        "email": "john@server.cat",
+        "password": "123456"
+    },
+    {
+        "name": "Pepe Perez",
+        "email": "pepe@server.cat",
+        "password": "123456"
+    }
+]

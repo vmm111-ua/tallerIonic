@@ -1,0 +1,25 @@
+  ion-content::part(scroll) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  ion-card-content {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+  }
+  
+  ion-button {
+    flex: 0 0 40%; 
+  }
+  
+  ion-button:first-of-type {
+    margin-right: 2%;
+  }
+  
+  ion-button:last-of-type {
+    margin-left: 2%;
+  }
+  

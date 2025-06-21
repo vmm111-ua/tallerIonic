@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Exit</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Are you sure you want to close this app?</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-button color="primary" (click)="confirmExit()">YES</ion-button>
+      <ion-button color="danger" (click)="cancelExit()">NO</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
